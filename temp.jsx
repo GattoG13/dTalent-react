@@ -229,7 +229,7 @@ export default function Users() {
           <div className="flex flex-col items-center justify-center py-20">
             <Lottie animationData={errorAnimation} loop className="h-40 w-40 mb-6" />
             <p className="text-center text-gray-400 text-lg">
-              Lo lamentamos, no se han encontrado registros disponibles.
+              No se encontraron empleados.
             </p>
           </div>
         ) : (
