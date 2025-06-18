@@ -21,7 +21,6 @@ export default function Settings() {
         </div>
       )}
 
-      {/* Contenido principal */}
       <main className="flex-1 px-4 md:px-10 py-8">
         {/* Botón hamburguesa en mobile */}
         <button

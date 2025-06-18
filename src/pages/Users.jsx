@@ -127,7 +127,7 @@ export default function Users() {
           </div>
         </div>
 
-        {/* Filtros + Búsqueda */}
+        {/* Filtros + y busqueda */}
         <div className="flex flex-wrap items-start justify-between mb-4 gap-4">
           <div className="flex flex-wrap items-center gap-4 text-sm relative">
             <span className="text-gray-400">Ordenar por</span>
@@ -220,7 +220,7 @@ export default function Users() {
           </div>
         </div>
 
-        {/* Tabla / Feedback */}
+        {/* Tabla / loading / error */}
         {isLoading ? (
           <div className="flex justify-center py-20">
             <Lottie animationData={loadingAnimation} loop className="h-40 w-40 mb-6" />
